@@ -1,0 +1,101 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Contador */
+.container {
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.contador {
+  border: 1px solid black;
+  background-color: rgb(212, 212, 217);
+  border-radius: 10px;
+  margin: 10px;
+}
+.contador .divContador {
+  margin-top: 10px;
+}
+.contador #clear {
+  width: 80px;
+  font-weight: 600;
+  font-size: 17px;
+  border: 1px black solid;
+}
+.contador h5 {
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  padding-bottom: 5px;
+}
+.contador p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/*Calculadora */
+.Cal {
+  background-color: rgb(236, 235, 234);
+}
+
+.calculadora {
+  width: auto;
+  border: 1px solid black;
+  background-color: rgb(36, 33, 33);
+  border-radius: 20px;
+  margin: 10px 0px 20px 0px;
+  font-weight: bold;
+  padding: 18px;
+}
+.calculadora #clear, .calculadora #zero {
+  width: 130px;
+}
+.calculadora button {
+  width: 60px;
+  height: 55px;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
+  font-size: 20px;
+}
+.calculadora button:hover {
+  background-color: rgb(58, 58, 58);
+}
+.calculadora button:active {
+  color: red;
+}
+.calculadora #igual {
+  height: 118px;
+  float: right;
+  margin-right: 5px;
+}
+
+.resultado {
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  border-radius: 0px 0px 5px 5px;
+  padding: 0px 15px 0px 0px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.display {
+  font-size: 16px;
+  color: black;
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  padding: 5px 15px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+}
